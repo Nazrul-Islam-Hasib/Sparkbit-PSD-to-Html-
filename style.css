@@ -1,0 +1,545 @@
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    PRODUCT NAME: SPARKBIT
+    AUTHOR: MD Nazrul Islam
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    CSS INDEX
+
+    01 FONTS
+    02 TUPOGRAPHY
+    03 HEADER AREA
+    04 ABOUT AREA
+    05 PORTFOLIO AREA
+    06 WORKING PROCESS AREA
+    07 TESTIMONIAL AREA
+    08 RECENT ARTICLE AREA
+    09 CLIENT AREA
+    10 CONTACT AREA
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    01 FONTS
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+@font-face{
+	src: url(fonts/liberation-sans.regular.ttf);
+	font-family: 'liberationSansRegular';
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    02 TUPOGRAPHY
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+*{
+	padding: 0;
+	margin: 0;
+}
+h2,p,h4,a{
+	font-family: 'liberationSansRegular';
+	color: #031D5B;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    03 HEADER AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.header-area{
+	width: 100%;
+	height: 700px;
+	background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+}
+.header-area .logo-area img{
+    padding-top: 30px;
+    cursor: pointer;
+}
+.menu-area{
+	padding-top: 15px;
+}
+.menu-area ul{
+    display: flex;
+}
+.menu-area ul li{
+    list-style: none;
+}
+.menu-area ul li a{
+    padding: 20px 20px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'liberationSansRegular';
+    color: #273769;
+    font-size: 15px;
+}
+.menu-area ul li a:hover{
+	color: #f1c40f;
+}
+.header-content{
+	padding-top: 50px;
+}
+.header-content .header-content-left{
+	padding-top: 80px;
+}
+.header-content .header-content-left h4{
+	padding-bottom: 30px;
+}
+.header-content .header-content-left span{
+	padding-left: 20px;
+}
+.header-content .header-content-left button{
+	background-image: url(images/button.png);
+	padding: 10px 20px;
+	border: none;
+	font-size: 12px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.header-content .header-content-left button:hover{
+	background-color: orange;
+	background-image: none;
+	color: #EAEBF5;
+}
+.menu-btn{
+	float: right;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	display: none;
+}
+.menu-btn i{
+	color: #fff;
+	font-size: 30px;
+}
+
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    04 ABOUT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.about-area{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	color: #34495e;
+}
+.about-area .about-area-left p{
+	padding-bottom: 5px;
+}
+.about-area .about-area-left span{
+	padding-left: 20px;
+}
+.about-area .about-area-left button{
+	background-image: url(images/button.png);
+	padding: 10px 10px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.about-area .about-area-left button:hover{
+	background-color: orange;
+	background-image: none;
+	color: #EAEBF5;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    05 PORTFOLIO AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.portfolio-area{
+	width: 100%;
+	height: 600px;
+	background-image: url(images/portfolio-area-left.png);
+	background-repeat: no-repeat;
+}
+.portfolio-area .portfolio-area-left{
+	width: 700px;
+	height: 500px;
+	position: relative;
+}
+.portfolio-area .portfolio-area-left img{
+	width: 150px;
+	height: 150px;
+}
+.portfolio-area .portfolio-area-left .img1{
+	position: absolute;
+	top: 10%;
+	left: 20%;
+}
+.portfolio-area .portfolio-area-left .img2{
+	position: absolute;
+	top: 20%;
+	left: 55%;
+}
+.portfolio-area .portfolio-area-left .img3{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+}
+.portfolio-area .portfolio-area-right{
+	padding-top: 100px;
+	float: left;
+}
+.portfolio-area .portfolio-area-right .portfolio-area-right-text{
+	text-align: right;
+}
+.portfolio-area .portfolio-area-right span{
+	padding-left: 20px;
+}
+.portfolio-area .portfolio-area-right button{
+	background-image: url(images/button.png);
+	padding: 10px 10px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.portfolio-area .portfolio-area-right button:hover{
+	background-color: orange;
+	background-image: none;
+	color: #EAEBF5;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    06 WORKING PROCESS AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.working-process-area{
+	background-image: url(images/Homepage.png);
+	background-repeat: no-repeat;
+	padding-top: 30px;
+	width: 70%;
+	height: 1000px;
+	margin: 0 auto;
+}
+.working-process-area-top{
+	padding: 50px 0;
+}
+.working-process-area-bottom{
+	
+}
+.working-process-area-bottom p{
+	display: inline-block;
+	font-size: 10px;
+}
+.working-process-area-bottom p>span{
+	font-size: 15px;
+}
+.working-process-area-bottom img{
+	width: 150px;
+	height: 150px;
+	padding: 20px 0;
+}
+.working-process-area-bottom .work-bottom-left{
+	padding-left: 50px;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    07 TESTIMONIAL AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.testimonial-area{
+	width: 100%;
+	height: 700px;
+	background-image: url(images/testimonial-bg.png);
+	background-repeat: no-repeat;
+}
+.testimonial-area .testimonial-area-bottom{
+	position: relative;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_box1,
+.testimonial-area .testimonial-area-bottom .testimonial_box2,
+.testimonial-area .testimonial-area-bottom .testimonial_box3,
+.testimonial-area .testimonial-area-bottom .testimonial_box4,
+.testimonial-area .testimonial-area-bottom .testimonial_box5
+{
+	display: inline-block;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_box1 img,
+.testimonial-area .testimonial-area-bottom .testimonial_box2 img,
+.testimonial-area .testimonial-area-bottom .testimonial_box3 img,
+.testimonial-area .testimonial-area-bottom .testimonial_box4 img
+{
+    width: 200px;
+	height: 200px;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_text1 img,
+.testimonial-area .testimonial-area-bottom .testimonial_text2 img,
+.testimonial-area .testimonial-area-bottom .testimonial_text3 img,
+.testimonial-area .testimonial-area-bottom .testimonial_text4 img
+{
+    width: 30px;
+	height: 30px;
+}
+
+.testimonial-area .testimonial-area-bottom .testimonial_box1{
+	float: left;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_text1{
+   position: absolute;
+   z-index: 999;
+   left: 8%;
+   top: 5%;
+   font-size: 10px;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_box3{
+	float: right;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_text3{
+   position: absolute;
+   z-index: 999;
+   left: 47%;
+   top: 55%;
+   font-size: 10px;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_box2{
+	float: left;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_text2{
+   position: absolute;
+   z-index: 999;
+   left: 8%;
+   top: 5%;
+   font-size: 10px;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_box4{
+	float: right;
+}
+.testimonial-area .testimonial-area-bottom .testimonial_text4{
+   position: absolute;
+   z-index: 999;
+   left: 47%;
+   top: 55%;
+   font-size: 10px;
+}
+
+.testimonial-area .testimonial-area-bottom .testimonial_text5{
+   position: absolute;
+   z-index: 999;
+   left: 16%;
+   top: 18%;
+   font-size: 12px;
+}
+
+.testimonial-area .testimonial-area-bottom  .pos{
+	position: relative;
+}
+.testimonial-area .testimonial-area-bottom .i_left{
+	position: absolute;
+	left: 35%;
+	bottom: 15%;
+	cursor: pointer;
+}
+.testimonial-area .testimonial-area-bottom .i_right{
+	position: absolute;
+	right: 40%;
+	bottom: 15%;
+	cursor: pointer;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    08 RECENT ARTICLE AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.recent-article-area .container{
+	background-image: url(images/recent_Article_bg.png);
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 50px;
+}
+.recent-article-area-text{
+	padding-top: 150px;
+	padding-left: 80px;
+}
+.recent-article-area-text button{
+	background-image: url(images/button.png);
+	padding: 10px 20px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+}
+.recent-article-area-text button:hover{
+	background-color: orange;
+	background-image: none;
+	color: #EAEBF5;
+}
+.recent-article-area-text button span{
+	padding-left: 30px;
+}
+.recent-article-area-right{
+	padding-top: 100px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #051F5C;
+}
+.recent-article-area-right .r-img{
+	width: 200px;
+	height: 320px;
+}
+.recent-article-area-right .r-img-1{
+	width: 300px;
+	height: 145px;
+}
+.recent-article-area-right .r-img-2{
+	width: 300px;
+	height: 145px;
+	margin-top: 20px;
+}
+.recent-article-area-right-text{
+	display: inline-block;
+	padding: 0 20px;
+	border-top: 2px solid #051F5C;
+}
+.recent-article-area-right-text span{
+	padding-left: 10px;
+	cursor: pointer;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    09 CLIENT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.client-area{
+	width: 100%;
+	height: 500px;
+	background-color: #fff;
+	position: relative;
+	padding-top: 50px;
+}
+.client-area h2{
+	padding-bottom: 50px;
+}
+.client-area img{
+	width: 80px;
+	height: 80px;
+	padding-left: 10px;
+}
+.client-area-slide .owl-prev{
+	position: absolute;
+	top: 35%;
+	left: 3%;
+	cursor: pointer;
+}
+.client-area-slide .owl-prev i{
+	font-size: 30px;
+	color: #2d3436;
+}
+.client-area-slide .owl-next{
+	position: absolute;
+	top: 35%;
+	right: 3%;
+	cursor: pointer;
+}
+.client-area-slide .owl-next i{
+	font-size: 30px;
+	color: #2d3436;
+	cursor: pointer;
+}
+/*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+``````````````````````````````````````````````````````````````````````````````````````
+    10 CONTACT AREA
+
+``````````````````````````````````````````````````````````````````````````````````````
+*/
+.contact-area{
+	background-image: url(images/contact_bg.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+.contact-area-top{
+	padding: 50px 0;
+	width: 50%;
+	margin: 0 auto;
+}
+.contact-area-top h2{
+	padding-bottom: 50px;
+}
+.contact-area-top input{
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px 5px;
+}
+.contact-area-top textarea{
+	border-radius: 10px 10px 10px 10px;
+	padding: 10px 10px;
+	width: 100%;
+}
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #45aaf2;
+    opacity: 1; /* Firefox */
+}
+input[type="email"]::placeholder {
+  color: #45aaf2;
+}
+input[type="text"]::placeholder {
+  color: #45aaf2;
+}
+.contact-area-top button{
+	background-image: url(images/button.png);
+	padding: 10px 20px;
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	float: right;
+}
+.contact-area-top button:hover{
+	background-color: orange;
+	background-image: none;
+	color: #EAEBF5;
+}
+.contact-area-top button span{
+	padding-left: 20px;
+}
+.contact-area-bottom{
+	padding: 30px 0;
+	background-image: url(images/contact_area_bottom.png);
+	width: 100%;
+	background-size: cover;
+}
+.contact-area-bottom .arrow-up{
+	display: inline-block;
+	padding: 2px 5px;
+	border: 1px solid #000;
+	cursor: pointer;
+	margin-left: 90px;
+}
+.contact-area-bottom .arrow-up:hover{
+	background-color: #f1c40f;
+	color: #fff;
+}
+.contact-area-bottom .social-buttom{
+	cursor: pointer;
+	padding-left: 3px;
+	display: inline-block;
+}
+.contact-area-bottom .social-buttom:hover{
+	color: #45aaf2;
+}
